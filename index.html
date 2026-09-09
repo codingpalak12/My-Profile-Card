@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Card</title>
-  <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Palak Chauhan - Profile Card</title>
+<link rel="stylesheet" href="style.css" >
 </head>
-
 <body>
-  <div class="card">
-    <img src="image.jpg">
-    <h2>Palak Chauhan</h2>
-    <p> Tech Enthusiast | Poet | Student@MUJ</p>
-    <p>Aspiring Software Developer </p>
-    <a href="https://www.instagram.com/codingpalak12?igsi=MWM40WNjZ2t0ZzU4b" class="btn">Follow Me</a>
-  </div>
-</body>
 
+<input type="checkbox" id="mode">
+
+<div class="top-bar">
+  <div class="toggle-row">
+    <label for="mode" class="switch"></label>
+    <span>Dark Mode</span>
+  </div>
+</div>
+
+<div class="wrapper">
+  <div class="card">
+    <img src="Image.jpg">
+    <h2>Palak Chauhan</h2>
+    <p>Tech Enthusiast | Poet | Student@MUJ<br>Aspiring Software Developer</p>
+
+    <div style="margin-top:18px; display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+
+  <!-- Instagram -->
+  <a href="https://instagram.com/YOUR_ID" target="_blank" style="text-decoration:none;">
+    <button class="btn" style="background: linear-gradient(-45deg, #feda75, #fa7e1e,#E75480,  #962fbf);">Instagram</button>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://linkedin.com/in/YOUR_ID" target="_blank" style="text-decoration:none;">
+    <button class="btn" style="background:#0A66C2;">LinkedIn</button>
+  </a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/YOUR_ID" target="_blank" style="text-decoration:none;">
+    <button class="btn" style="background:#333;">GitHub</button>
+  </a>
+
+</div>
+
+    
+  </div>
+</div>
+
+</body>
 </html>
