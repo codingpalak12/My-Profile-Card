@@ -1,5 +1,5 @@
->
-  #mode{ display:none; }
+
+  #mode{ display:none; opacity: 0; }
   body{
     margin:0;
     background:#e6ecf3;
@@ -12,7 +12,7 @@
     position:relative;
   }
   
-  /* TOP RIGHT SWITCH - this is new */
+  /* TOP RIGHT SWITCH */
   .top-bar{
     position:absolute;
     top:20px;
